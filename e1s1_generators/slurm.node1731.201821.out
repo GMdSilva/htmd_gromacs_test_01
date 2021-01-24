@@ -1,0 +1,25 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 201821
+##  Job Name : swarmtest
+##  Nodelist : node1731
+##      CPUs : 4
+##  Mem/Node : 32000 MB
+## Directory : /gpfs/data/brubenst/gmontei2/htmd/gromacs/adaptivemd
+##   Started : Sun Jan 24 13:01:51 EST 2021
+###############################################################################
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   129    Protein residues
+There are: 12134      Water residues
+There are:     8        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 48x48x48, spacing 0.152 0.152 0.152
+This run will generate roughly 12 Mb of data
